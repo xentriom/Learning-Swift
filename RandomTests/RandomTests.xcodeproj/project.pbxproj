@@ -12,6 +12,8 @@
 		7E99150C2BE93EA600CDDFA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E99150B2BE93EA600CDDFA9 /* Assets.xcassets */; };
 		7E9915102BE93EA600CDDFA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E99150F2BE93EA600CDDFA9 /* Preview Assets.xcassets */; };
 		7E9915172BE9400A00CDDFA9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9915162BE9400A00CDDFA9 /* SettingsView.swift */; };
+		7EA0B87F2BEA9ED10016F708 /* PhoneScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA0B87E2BEA9ED10016F708 /* PhoneScene.swift */; };
+		7EA0B8812BEA9EE30016F708 /* MacScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA0B8802BEA9EE30016F708 /* MacScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7E99150D2BE93EA600CDDFA9 /* RandomTests.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RandomTests.entitlements; sourceTree = "<group>"; };
 		7E99150F2BE93EA600CDDFA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7E9915162BE9400A00CDDFA9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7EA0B87E2BEA9ED10016F708 /* PhoneScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneScene.swift; sourceTree = "<group>"; };
+		7EA0B8802BEA9EE30016F708 /* MacScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				7E9915072BE93EA500CDDFA9 /* RandomTestsApp.swift */,
-				7E9915162BE9400A00CDDFA9 /* SettingsView.swift */,
-				7E9915092BE93EA500CDDFA9 /* ContentView.swift */,
+				7EA0B87B2BEA9BA60016F708 /* Models */,
+				7EA0B87C2BEA9BB00016F708 /* Scenes */,
+				7EA0B87D2BEA9BC90016F708 /* Views */,
 				7E99150B2BE93EA600CDDFA9 /* Assets.xcassets */,
 				7E99150D2BE93EA600CDDFA9 /* RandomTests.entitlements */,
 				7E99150E2BE93EA600CDDFA9 /* Preview Content */,
@@ -70,6 +75,31 @@
 				7E99150F2BE93EA600CDDFA9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7EA0B87B2BEA9BA60016F708 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7EA0B87C2BEA9BB00016F708 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				7EA0B87E2BEA9ED10016F708 /* PhoneScene.swift */,
+				7EA0B8802BEA9EE30016F708 /* MacScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		7EA0B87D2BEA9BC90016F708 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7E9915162BE9400A00CDDFA9 /* SettingsView.swift */,
+				7E9915092BE93EA500CDDFA9 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +175,8 @@
 				7E9915172BE9400A00CDDFA9 /* SettingsView.swift in Sources */,
 				7E99150A2BE93EA500CDDFA9 /* ContentView.swift in Sources */,
 				7E9915082BE93EA500CDDFA9 /* RandomTestsApp.swift in Sources */,
+				7EA0B87F2BEA9ED10016F708 /* PhoneScene.swift in Sources */,
+				7EA0B8812BEA9EE30016F708 /* MacScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
