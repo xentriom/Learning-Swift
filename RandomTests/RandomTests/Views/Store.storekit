@@ -95,9 +95,13 @@
           ],
           "displayPrice" : "1.99",
           "familyShareable" : true,
-          "groupNumber" : 2,
+          "groupNumber" : 1,
           "internalID" : "8DE3BD72",
-          "introductoryOffer" : null,
+          "introductoryOffer" : {
+            "internalID" : "4BA1226B",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
           "localizations" : [
             {
               "description" : "",
@@ -120,7 +124,7 @@
           ],
           "displayPrice" : "14.99",
           "familyShareable" : true,
-          "groupNumber" : 1,
+          "groupNumber" : 2,
           "internalID" : "8916A499",
           "introductoryOffer" : null,
           "localizations" : [

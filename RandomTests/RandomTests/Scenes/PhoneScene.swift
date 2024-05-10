@@ -16,14 +16,14 @@ struct PhoneScene: Scene {
                         Label("TabItem1", systemImage: "archivebox")
                     }
                 
-                ContentView()
-                    .tabItem {
-                        Label("TabItem2", systemImage: "archivebox")
-                    }
-                
                 StoreView()
                     .tabItem {
-                        Label("TabItem3", systemImage: "archivebox")
+                        Label("StoreKit1", systemImage: "archivebox")
+                    }
+                
+                SubscriptionView()
+                    .tabItem {
+                        Label("StoreKit2", systemImage: "archivebox")
                     }
                 
                 SettingsView()

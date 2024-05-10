@@ -12,8 +12,9 @@ struct StoreHeaderView: View {
         VStack (alignment: .leading) {
             HStack {
                 Image(systemName: "crown")
+                    .foregroundStyle(.white)
                 Text("Go Premium")
-                    .font(.title)
+                    .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundStyle(.white)
             }
@@ -22,18 +23,34 @@ struct StoreHeaderView: View {
                 .font(.subheadline)
                 .foregroundStyle(.gray)
             
-            Spacer()
-            
-            VStack {
+            HStack {
+                Image(systemName: "testtube.2")
                 Text("Unlimited Test")
-                Text("Zero benefits")
-                Text("Support xentriom")
-                Text("Waste money")
+                    .font(.subheadline)
             }
-            .font(.caption)
+            .foregroundStyle(.white)
+            
+            HStack {
+                Image(systemName: "xmark.app")
+                Text("Zero benefits")
+                    .font(.subheadline)
+            }
+            .foregroundStyle(.white)
+            
+            HStack {
+                Image(systemName: "person.2")
+                Text("Support xentriom")
+                    .font(.subheadline)
+            }
+            .foregroundStyle(.white)
+            
+            HStack {
+                Image(systemName: "dollarsign.square")
+                Text("Waste money")
+                    .font(.subheadline)
+            }
             .foregroundStyle(.white)
         }
-        .background(.indigo)
     }
 }
 
