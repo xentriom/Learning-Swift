@@ -14,6 +14,9 @@
 		7E9915172BE9400A00CDDFA9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9915162BE9400A00CDDFA9 /* SettingsView.swift */; };
 		7EA0B87F2BEA9ED10016F708 /* PhoneScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA0B87E2BEA9ED10016F708 /* PhoneScene.swift */; };
 		7EA0B8812BEA9EE30016F708 /* MacScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA0B8802BEA9EE30016F708 /* MacScene.swift */; };
+		7EC6F3D92BEDBFAD00FFF659 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6F3D82BEDBFAD00FFF659 /* StoreView.swift */; };
+		7EC6F3DB2BEDC28600FFF659 /* StoreHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6F3DA2BEDC28600FFF659 /* StoreHeaderView.swift */; };
+		7EC6F3DD2BEDC43F00FFF659 /* Store.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 7EC6F3DC2BEDC43F00FFF659 /* Store.storekit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		7E9915162BE9400A00CDDFA9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		7EA0B87E2BEA9ED10016F708 /* PhoneScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneScene.swift; sourceTree = "<group>"; };
 		7EA0B8802BEA9EE30016F708 /* MacScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacScene.swift; sourceTree = "<group>"; };
+		7EC6F3D82BEDBFAD00FFF659 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		7EC6F3DA2BEDC28600FFF659 /* StoreHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreHeaderView.swift; sourceTree = "<group>"; };
+		7EC6F3DC2BEDC43F00FFF659 /* Store.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Store.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 			children = (
 				7E9915162BE9400A00CDDFA9 /* SettingsView.swift */,
 				7E9915092BE93EA500CDDFA9 /* ContentView.swift */,
+				7EC6F3D82BEDBFAD00FFF659 /* StoreView.swift */,
+				7EC6F3DC2BEDC43F00FFF659 /* Store.storekit */,
+				7EC6F3DA2BEDC28600FFF659 /* StoreHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,6 +171,7 @@
 			files = (
 				7E9915102BE93EA600CDDFA9 /* Preview Assets.xcassets in Resources */,
 				7E99150C2BE93EA600CDDFA9 /* Assets.xcassets in Resources */,
+				7EC6F3DD2BEDC43F00FFF659 /* Store.storekit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +186,9 @@
 				7E99150A2BE93EA500CDDFA9 /* ContentView.swift in Sources */,
 				7E9915082BE93EA500CDDFA9 /* RandomTestsApp.swift in Sources */,
 				7EA0B87F2BEA9ED10016F708 /* PhoneScene.swift in Sources */,
+				7EC6F3D92BEDBFAD00FFF659 /* StoreView.swift in Sources */,
 				7EA0B8812BEA9EE30016F708 /* MacScene.swift in Sources */,
+				7EC6F3DB2BEDC28600FFF659 /* StoreHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

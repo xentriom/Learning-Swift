@@ -21,7 +21,7 @@ struct PhoneScene: Scene {
                         Label("TabItem2", systemImage: "archivebox")
                     }
                 
-                ContentView()
+                StoreView()
                     .tabItem {
                         Label("TabItem3", systemImage: "archivebox")
                     }
